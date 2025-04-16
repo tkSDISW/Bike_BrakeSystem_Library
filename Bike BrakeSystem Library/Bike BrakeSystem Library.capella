@@ -3357,7 +3357,7 @@
                 sourceElement="#0063a9f1-4866-43b7-b11e-bc30646e1d32"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="41acaea1-9617-4e6a-8657-3069c64c329b"
-              name="Front Hydarulic Lines" abstractType="#25c4a8f3-59c7-4240-b614-9fa01c3dcdd7">
+              name="Front Hydraulic Lines" abstractType="#25c4a8f3-59c7-4240-b614-9fa01c3dcdd7">
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
                 id="ef34c68e-cf5d-44a5-a584-53be50dfa0b5" deployedElement="#08080937-e02d-451f-833f-47a969aaa5e8"
                 location="#41acaea1-9617-4e6a-8657-3069c64c329b"/>
@@ -4609,7 +4609,7 @@
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="25c4a8f3-59c7-4240-b614-9fa01c3dcdd7" appliedPropertyValueGroups="#58433acc-108f-4398-af8c-2ed6cf8383bc"
-              name="Front Hydarulic Lines" nature="NODE">
+              name="Front Hydraulic Lines" nature="NODE">
             <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
                 id="58433acc-108f-4398-af8c-2ed6cf8383bc" name="Mass">
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
