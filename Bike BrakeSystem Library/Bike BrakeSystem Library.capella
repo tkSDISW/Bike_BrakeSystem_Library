@@ -3246,8 +3246,6 @@
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="8ae8f3f6-d7b3-4864-b163-96e00d76075f" name="H_3" linkEnds="#4164a344-9bb2-4944-8f3d-aca81d1a02fe #372985c2-4e70-4d82-8165-fdc6966db447"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="c441d79b-c33b-4a21-8b23-b10f3abff66d" name="PL 10_3" linkEnds="#8dc8977e-2e58-43df-bef9-018c5bf692e4"/>
-          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="8dba6d57-f420-4903-9ad2-f50466db0516" name="PL 31" linkEnds="#9dad3efb-3b85-46f7-b7b2-21af2b4ed990 #402c514d-e3c1-427b-a0b1-92f2c15e27a2">
             <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
                 id="00b59536-a944-4327-a42d-a5d4f5ee2466" targetElement="#becabdda-c646-47e7-9e65-c81df195f582"
