@@ -3003,6 +3003,22 @@
               id="b1bce952-420d-4723-a240-fd2f5691fa92" targetElement="#c3174b9c-feab-406e-b4ae-0ee780b54412"
               sourceElement="#366ae4f2-0f7b-4840-a33f-48a4f10aa024"/>
         </ownedPhysicalLinks>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="1e4f5d12-aff0-4f9e-930d-5dcc2d823bcb" name="PL 10" linkEnds="#570135bd-49a5-4fb6-8f68-7acf8ab4be1c #fb225139-bae5-474a-bb5c-fef4b99803c8">
+          <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
+              id="425d659f-e821-49c6-b2f0-324735cc2b6a" targetElement="#3f1c1005-9666-48e9-a270-a84daba77f26"
+              sourceElement="#1e4f5d12-aff0-4f9e-930d-5dcc2d823bcb"/>
+        </ownedPhysicalLinks>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="c6cf9420-03c7-43da-8f20-62d66b94bff7" name="PL 11" linkEnds="#bf4b0e04-52d3-423a-95e6-b5b7c9bb3072 #4beb93fd-b453-4025-901e-a82965595457">
+          <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
+              id="15581067-1d1a-4884-ac52-60edad5cab79" targetElement="#6897803b-e2f1-468f-b89f-e897d09913a5"
+              sourceElement="#c6cf9420-03c7-43da-8f20-62d66b94bff7"/>
+        </ownedPhysicalLinks>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="f9cb12e4-8ede-4ac2-90a7-d271ad6eb3b0" name="PL 12" linkEnds="#1aebdb12-65e8-4548-9a2e-12fcb40cc38c #5a24d4ff-76a8-499d-90d8-a16455417797"/>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="e0c36ca7-0be5-435b-8dcd-c97288cdd61c" name="PL 13" linkEnds="#71b457f0-3434-4639-9da6-930867f81d3a #39c15a63-f4de-47fe-b47e-854e59c57692"/>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
             id="f9db6448-0094-439d-89a6-24afc7fd5c0b" name="Physical System">
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
@@ -3066,7 +3082,7 @@
                 location="#071b7c49-431f-4f5e-b8cc-aaefce66a8bc"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="e8e5579f-b5e7-434c-b3e3-342d428a6bf7"
-              name="Rotor" abstractType="#5971a159-e19c-49e5-9904-bf4c49b417a3">
+              name="Rear Rotor" abstractType="#5971a159-e19c-49e5-9904-bf4c49b417a3">
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
                 id="da67aeff-f2f4-4310-96e2-e0beba3ce80e" deployedElement="#23be4cf1-6a33-41c1-bb6e-b7c701469af1"
                 location="#e8e5579f-b5e7-434c-b3e3-342d428a6bf7"/>
@@ -3094,19 +3110,19 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="dc25d301-3310-451f-b902-5919649764c4"
               name="Hydraulic Brake Assembly" abstractType="#be5efb21-316e-484d-a2e1-fdbb4d25864b"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ca17e5f4-2ce5-4339-8127-383dbae3c38a"
-              name="Front Caliper_1" abstractType="#6e4b7c7d-aa38-49c1-9dc4-5a7a19d265d4">
+              name="Front Caliper" abstractType="#6e4b7c7d-aa38-49c1-9dc4-5a7a19d265d4">
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
                 id="05d8bbcb-750d-40d9-aa84-d3b3df775f21" deployedElement="#5c5b2b0e-3a4e-4a9b-a7d6-3d17b41490f8"
                 location="#ca17e5f4-2ce5-4339-8127-383dbae3c38a"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b5ba4c87-852f-492d-871e-f2530168dd4c"
-              name="Rotor_1" abstractType="#d670d983-6078-4c75-ad60-a08cef92a5f6">
+              name="Front Rotor" abstractType="#d670d983-6078-4c75-ad60-a08cef92a5f6">
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
                 id="4ff9d450-37de-4ee4-9844-d0402b72a125" deployedElement="#b14b7782-a053-41f6-9430-4445ea3458f3"
                 location="#b5ba4c87-852f-492d-871e-f2530168dd4c"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="60546210-22dc-45b7-853c-c536193deb28"
-              name="PAD_1" abstractType="#4b1c3f76-22ea-4a69-99e2-66ab4176e57a">
+              name="PAD" abstractType="#4b1c3f76-22ea-4a69-99e2-66ab4176e57a">
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
                 id="80bdc9fe-7e35-419c-8169-bb77df99540a" deployedElement="#600a1858-f4dd-4d21-9f30-aa26de19d21c"
                 location="#60546210-22dc-45b7-853c-c536193deb28"/>
@@ -3182,7 +3198,11 @@
                 sourceElement="#2ea369a6-abfe-4565-a541-b66ac4055fe8"/>
           </ownedPhysicalLinks>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="22862d0c-7acc-4444-991d-cd16b9d1554b" name="H-Brake Line" linkEnds="#c2394e0a-6aee-4663-8717-9d42c7920659 #7369cb59-d224-4b86-ad95-c451ffa68a6d"/>
+              id="22862d0c-7acc-4444-991d-cd16b9d1554b" name="H-Brake Line" linkEnds="#c2394e0a-6aee-4663-8717-9d42c7920659 #7369cb59-d224-4b86-ad95-c451ffa68a6d">
+            <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
+                id="b2a2872c-1e8e-4093-beb2-0237e0017ee8" targetElement="#55ea3dfc-8479-4b79-95e7-e8077d832d66"
+                sourceElement="#22862d0c-7acc-4444-991d-cd16b9d1554b"/>
+          </ownedPhysicalLinks>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="77c25458-2349-4285-85f4-d43c7b50420c" name="PL 4" linkEnds="#3a237ce7-b792-4189-aef4-20304e86844b #f8f833de-e1b1-4e45-9992-1b23b4a3731a">
             <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
@@ -3232,7 +3252,11 @@
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="be24a500-cdc4-4c1a-8d94-c4738072e809" name="PL 6_1" linkEnds="#2ae4a6d2-8dc0-46b9-9e52-5c14e379d4ca #0df247f9-a60b-460a-b03b-3ae0a22c68fe"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="d50c1c7c-0b40-43f0-8c55-6bbedfefefd7" name="PL 7_1" linkEnds="#0fd364ad-4e59-4a32-865a-09ae8f508496 #8f1f3680-7034-4209-b56a-5dceba2fd11e"/>
+              id="d50c1c7c-0b40-43f0-8c55-6bbedfefefd7" name="PL 7_1" linkEnds="#0fd364ad-4e59-4a32-865a-09ae8f508496 #8f1f3680-7034-4209-b56a-5dceba2fd11e">
+            <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
+                id="4fed15af-d770-408e-8a96-684a7d5dfc89" targetElement="#91075803-d3b4-4fcd-85de-78c212c4b9ee"
+                sourceElement="#d50c1c7c-0b40-43f0-8c55-6bbedfefefd7"/>
+          </ownedPhysicalLinks>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="7165cde6-0e44-4fcb-8e46-57c29ac0ec90" name="M_2" linkEnds="#4c494f78-88e3-4e74-be95-0ac380cb3843 #d26ae063-1380-491f-bbc1-a62014f3ec19"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
@@ -3857,6 +3881,8 @@
                   id="3718e165-00a2-41ca-a8fe-415df802025d" targetElement="#a7b40a3a-4701-41dc-bdbd-832f69a61392"
                   sourceElement="#ac3f9033-9c05-4991-bc51-2568ea090774"/>
             </ownedFeatures>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="5a24d4ff-76a8-499d-90d8-a16455417797" name="PP 2"/>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="802dbe16-e87a-47c6-993e-30dc54124569" name="Rear Caliper" nature="NODE">
@@ -3878,7 +3904,7 @@
                 id="2c5f3705-a4ef-48ed-957d-09799a2a1206" name="PP 5"/>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="5971a159-e19c-49e5-9904-bf4c49b417a3" name="Rotor" nature="NODE">
+              id="5971a159-e19c-49e5-9904-bf4c49b417a3" name="Rear Rotor" nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="2af44827-c6dc-402a-85f8-e485dbfcaf86" name="PP 1">
               <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
@@ -4037,10 +4063,16 @@
                     id="ae0109f4-9953-42a2-bf0f-519c18bf532a" targetElement="#47cf177b-51bc-4b22-b593-a821b489f8b6"
                     sourceElement="#487e5202-b09f-435c-a352-7a5a2088591d"/>
               </ownedFeatures>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="4beb93fd-b453-4025-901e-a82965595457" name="PP 2">
+                <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                    id="a8cbe54d-c290-4c76-9625-51e19b4c3b4a" targetElement="#a6322aa9-8326-43b7-85fc-d81b7c2fbd78"
+                    sourceElement="#4beb93fd-b453-4025-901e-a82965595457"/>
+              </ownedFeatures>
             </ownedPhysicalComponents>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="6e4b7c7d-aa38-49c1-9dc4-5a7a19d265d4" name="Front Caliper_1" nature="NODE">
+              id="6e4b7c7d-aa38-49c1-9dc4-5a7a19d265d4" name="Front Caliper" nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="3a662e29-3f40-44d4-a149-ed7cd950b538" name="PP 2_1">
               <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
@@ -4063,11 +4095,15 @@
             </ownedFeatures>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="d670d983-6078-4c75-ad60-a08cef92a5f6" name="Rotor_1" nature="NODE">
+              id="d670d983-6078-4c75-ad60-a08cef92a5f6" name="Front Rotor" nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="2ae4a6d2-8dc0-46b9-9e52-5c14e379d4ca" name="PP 1_1"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="8f1f3680-7034-4209-b56a-5dceba2fd11e" name="PP 2_1"/>
+                id="8f1f3680-7034-4209-b56a-5dceba2fd11e" name="PP 2_1">
+              <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                  id="773ae3c7-e6be-4872-811f-8bdbaa095404" targetElement="#832a5891-ef4c-4ff8-b6fc-3da6f19dffd5"
+                  sourceElement="#8f1f3680-7034-4209-b56a-5dceba2fd11e"/>
+            </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="63326c6c-052d-4567-a03a-3c6c3639c93e" name="PP 3">
               <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
@@ -4076,7 +4112,7 @@
             </ownedFeatures>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="4b1c3f76-22ea-4a69-99e2-66ab4176e57a" name="PAD_1" nature="NODE">
+              id="4b1c3f76-22ea-4a69-99e2-66ab4176e57a" name="PAD" nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="80f5caad-04cb-4e49-a2b8-78dc0b54bf0d" name="PP 1_1">
               <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
@@ -4084,7 +4120,11 @@
                   sourceElement="#80f5caad-04cb-4e49-a2b8-78dc0b54bf0d"/>
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="0fd364ad-4e59-4a32-865a-09ae8f508496" name="PP 2_1"/>
+                id="0fd364ad-4e59-4a32-865a-09ae8f508496" name="PP 2_1">
+              <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                  id="5f13f7e8-8283-4471-ba05-f325ebc1b5ab" targetElement="#e51c61c2-a03f-42bc-9384-b56c203d01de"
+                  sourceElement="#0fd364ad-4e59-4a32-865a-09ae8f508496"/>
+            </ownedFeatures>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="58b4e8d0-4a8f-4215-b468-f09b5eb9ae8b" name="PAD" nature="NODE">
@@ -4144,6 +4184,8 @@
               id="d2d39e46-931b-46ba-9766-b87927d85d5b" name="Right Brake Lever" nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="861c189c-da47-44e5-bc2a-2280169244e1" name="PP 1_3"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="39c15a63-f4de-47fe-b47e-854e59c57692" name="PP 2"/>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="7188d833-a20b-4fbe-b6d2-c4d1708e8d15" name="Right Hydraulic Brake Assembl"
@@ -4171,12 +4213,22 @@
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                   id="372985c2-4e70-4d82-8165-fdc6966db447" name="PP 2_3"/>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="c2394e0a-6aee-4663-8717-9d42c7920659" name="PP 3_3"/>
+                  id="c2394e0a-6aee-4663-8717-9d42c7920659" name="PP 3_3">
+                <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                    id="bbf2936f-7cb5-4a68-ba95-5eab8f13f142" targetElement="#302282ea-aaeb-42b6-abf0-9e0b5cb0ceef"
+                    sourceElement="#c2394e0a-6aee-4663-8717-9d42c7920659"/>
+              </ownedFeatures>
             </ownedPhysicalComponents>
             <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
                 id="941cdc0a-7d4d-4c02-953c-6b30a03be0a6" name="Right Reservior" nature="NODE">
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                   id="4164a344-9bb2-4944-8f3d-aca81d1a02fe" name="PP 1_3"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="fb225139-bae5-474a-bb5c-fef4b99803c8" name="PP 2">
+                <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                    id="661af822-de43-4771-9247-511f5df50bda" targetElement="#09a39c82-68f9-4d56-a70e-73758e2b2a13"
+                    sourceElement="#fb225139-bae5-474a-bb5c-fef4b99803c8"/>
+              </ownedFeatures>
             </ownedPhysicalComponents>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
@@ -4199,7 +4251,11 @@
               id="40f28a74-8e53-4b25-bf6f-f472ebaa91cf" name="Rear Hydraulic Lines"
               nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="7369cb59-d224-4b86-ad95-c451ffa68a6d" name="PP 1"/>
+                id="7369cb59-d224-4b86-ad95-c451ffa68a6d" name="PP 1">
+              <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                  id="aef6aca7-9cc4-443e-b8f4-3f5193f2a838" targetElement="#31ebea8b-d1f1-4a62-a8e5-3c91fff9df5b"
+                  sourceElement="#7369cb59-d224-4b86-ad95-c451ffa68a6d"/>
+            </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="3948ffbf-e390-481d-b17e-075d8dad3581" name="PP 2"/>
           </ownedPhysicalComponents>
@@ -4337,6 +4393,22 @@
                 id="d36f3422-c7fd-46e2-a82e-982cdd1c84d4" targetElement="#95c7be90-c3f2-42e1-b690-667520343afd"
                 sourceElement="#cc598982-d61a-4214-8c8e-569ef9761437"/>
           </ownedFeatures>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="570135bd-49a5-4fb6-8f68-7acf8ab4be1c" name="PP 2">
+            <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                id="9f076db7-1471-4fca-9ffa-06f10e2abfe2" targetElement="#cc598982-d61a-4214-8c8e-569ef9761437"
+                sourceElement="#570135bd-49a5-4fb6-8f68-7acf8ab4be1c"/>
+          </ownedFeatures>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="bf4b0e04-52d3-423a-95e6-b5b7c9bb3072" name="PP 3">
+            <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                id="56dcf7e3-ff2c-4abc-9422-b243f0bd080d" targetElement="#cc598982-d61a-4214-8c8e-569ef9761437"
+                sourceElement="#bf4b0e04-52d3-423a-95e6-b5b7c9bb3072"/>
+          </ownedFeatures>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="1aebdb12-65e8-4548-9a2e-12fcb40cc38c" name="PP 4"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="71b457f0-3434-4639-9da6-930867f81d3a" name="PP 5"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="40255000-bd4f-4c29-b820-ceb7e487fb20" targetElement="#dc6006bd-65b5-42c5-8ed0-a7c175630248"
               sourceElement="#8e4239f0-96e6-4bd8-be7c-34459cf88d51"/>
