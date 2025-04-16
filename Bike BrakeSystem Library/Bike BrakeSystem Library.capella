@@ -3266,13 +3266,13 @@
                 location="#e8e5579f-b5e7-434c-b3e3-342d428a6bf7"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="1662c6be-e4e2-4865-9d5a-7a1e35bd8bf7"
-              name="PAD" abstractType="#55433cbf-5590-4bde-83a3-1da84df5b5e2">
+              name="PAD RL" abstractType="#55433cbf-5590-4bde-83a3-1da84df5b5e2">
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
                 id="f21a4be3-438d-4df4-8dc7-c8e6eb7aa1ef" deployedElement="#76041b75-b3ad-47c9-9894-fc6fec802003"
                 location="#1662c6be-e4e2-4865-9d5a-7a1e35bd8bf7"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="c7e4d3e7-5f78-4edb-a457-060427f29092"
-              name="PAD" abstractType="#cd720a56-faa1-4fb5-8010-d8d1a42753d3">
+              name="PAD RR" abstractType="#cd720a56-faa1-4fb5-8010-d8d1a42753d3">
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
                 id="0f468da4-72ff-47f7-af05-faa923d3b500" deployedElement="#48ca53d3-3117-43b6-ba87-56c6f6922fe6"
                 location="#c7e4d3e7-5f78-4edb-a457-060427f29092"/>
@@ -3304,13 +3304,13 @@
                 location="#b5ba4c87-852f-492d-871e-f2530168dd4c"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="60546210-22dc-45b7-853c-c536193deb28"
-              name="PAD" abstractType="#4b1c3f76-22ea-4a69-99e2-66ab4176e57a">
+              name="PAD FL" abstractType="#4b1c3f76-22ea-4a69-99e2-66ab4176e57a">
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
                 id="80bdc9fe-7e35-419c-8169-bb77df99540a" deployedElement="#600a1858-f4dd-4d21-9f30-aa26de19d21c"
                 location="#60546210-22dc-45b7-853c-c536193deb28"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="07ac1f2c-cd29-46e0-abb1-e0a9a685242d"
-              name="PAD" abstractType="#58b4e8d0-4a8f-4215-b468-f09b5eb9ae8b">
+              name="PAD FR" abstractType="#58b4e8d0-4a8f-4215-b468-f09b5eb9ae8b">
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
                 id="038f648a-8735-4aed-9e0d-78781ba70861" deployedElement="#49098fc0-a745-4266-8374-483f4f9ea64a"
                 location="#07ac1f2c-cd29-46e0-abb1-e0a9a685242d"/>
@@ -4210,7 +4210,7 @@
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="55433cbf-5590-4bde-83a3-1da84df5b5e2" appliedPropertyValueGroups="#e2659ebe-8111-4d8c-acac-598f18cb71c7"
-              name="PAD" nature="NODE">
+              name="PAD RL" nature="NODE">
             <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
                 id="e2659ebe-8111-4d8c-acac-598f18cb71c7" name="Mass">
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
@@ -4233,13 +4233,13 @@
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="cd720a56-faa1-4fb5-8010-d8d1a42753d3" appliedPropertyValueGroups="#ee871d95-877c-4506-b1e6-423e2cfdde75"
-              name="PAD" nature="NODE">
+              name="PAD RR" nature="NODE">
             <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
                 id="ee871d95-877c-4506-b1e6-423e2cfdde75" name="Mass">
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
                   id="a75ce4b0-6463-4f66-9975-d050cf1c389f" name="Units" value="g"/>
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
-                  id="723ba453-502a-4087-a902-613eeb29edc0" name="Max Value" value="2.0"/>
+                  id="723ba453-502a-4087-a902-613eeb29edc0" name="Max Value" value="1.0"/>
             </ownedPropertyValueGroups>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="6fd82483-cf24-4a4a-a7d2-1aae4e37d39b" name="PP 1">
@@ -4375,7 +4375,7 @@
                 <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
                     id="083a64ec-568c-4bfd-a0d9-0f59520076b0" name="Units" value="g"/>
                 <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
-                    id="9c43958f-ae00-468b-8350-18ef9b8b58a3" name="Max Value" value="2.0"/>
+                    id="9c43958f-ae00-468b-8350-18ef9b8b58a3" name="Max Value" value="3.0"/>
               </ownedPropertyValueGroups>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                   id="487e5202-b09f-435c-a352-7a5a2088591d" name="PP 1">
@@ -4453,13 +4453,13 @@
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="4b1c3f76-22ea-4a69-99e2-66ab4176e57a" appliedPropertyValueGroups="#b928ff2b-374c-4e1d-8c17-3d25066c031d"
-              name="PAD" nature="NODE">
+              name="PAD FL" nature="NODE">
             <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
                 id="b928ff2b-374c-4e1d-8c17-3d25066c031d" name="Mass">
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
                   id="c02810bd-192b-4f15-bc60-dc6104b51c4a" name="Units" value="g"/>
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
-                  id="c2b5853a-8287-4a7a-a60f-85609475ef5d" name="Max Value" value="2.0"/>
+                  id="c2b5853a-8287-4a7a-a60f-85609475ef5d" name="Max Value" value="4.0"/>
             </ownedPropertyValueGroups>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="80f5caad-04cb-4e49-a2b8-78dc0b54bf0d" name="PP 1_1">
@@ -4476,13 +4476,13 @@
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="58b4e8d0-4a8f-4215-b468-f09b5eb9ae8b" appliedPropertyValueGroups="#4833d1be-7b27-4e8b-9db0-03053500711e"
-              name="PAD" nature="NODE">
+              name="PAD FR" nature="NODE">
             <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
                 id="4833d1be-7b27-4e8b-9db0-03053500711e" name="Mass">
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
                   id="786cc683-368d-4722-8762-e19fd1842aaf" name="Units" value="g"/>
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
-                  id="df5be3a9-ef64-4640-b2b2-1cd0601174af" name="Max Value" value="1.0"/>
+                  id="df5be3a9-ef64-4640-b2b2-1cd0601174af" name="Max Value" value="5.0"/>
             </ownedPropertyValueGroups>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="351566d5-732e-4374-ad8e-bcd1f5871363" name="PP 1_1">
@@ -4574,7 +4574,7 @@
                 <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
                     id="b5c6136d-39a2-41d4-a730-8443c9759ec4" name="Units" value="g"/>
                 <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
-                    id="6643bba0-b60d-4cd1-9e9e-cf4d0276f7ab" name="Max Value" value="1.0"/>
+                    id="6643bba0-b60d-4cd1-9e9e-cf4d0276f7ab" name="Max Value" value="6.0"/>
               </ownedPropertyValueGroups>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                   id="953ea60e-c511-4312-8fb7-60a585cc01c4" name="PP 1_3"/>
@@ -4595,7 +4595,7 @@
                 <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
                     id="ebb8d6cb-6ed8-4947-8276-d498bce58ddb" name="Units" value="g"/>
                 <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
-                    id="a92cc9f3-5195-437f-bd7e-9109bb30cf52" name="Max Value" value="1.0"/>
+                    id="a92cc9f3-5195-437f-bd7e-9109bb30cf52" name="Max Value" value="7.0"/>
               </ownedPropertyValueGroups>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                   id="4164a344-9bb2-4944-8f3d-aca81d1a02fe" name="PP 1_3"/>
@@ -4615,7 +4615,7 @@
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
                   id="5a82edce-b262-45ef-bf76-5594ffb5ea0c" name="Units" value="g"/>
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
-                  id="48a98d43-e85e-4d02-a7cb-c5e5d542410b" name="Max Value" value="1.0"/>
+                  id="48a98d43-e85e-4d02-a7cb-c5e5d542410b" name="Max Value" value="8.0"/>
             </ownedPropertyValueGroups>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="402c514d-e3c1-427b-a0b1-92f2c15e27a2" name="PP 1_1">
@@ -4638,7 +4638,7 @@
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
                   id="ae2349d9-dfb7-4b29-8a95-c52f350e740b" name="Units" value="g"/>
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
-                  id="da20fdd4-57e8-48b4-8d4c-b8830bf2c32c" name="Max Value" value="1.0"/>
+                  id="da20fdd4-57e8-48b4-8d4c-b8830bf2c32c" name="Max Value" value="9.0"/>
             </ownedPropertyValueGroups>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="7369cb59-d224-4b86-ad95-c451ffa68a6d" name="PP 1">
