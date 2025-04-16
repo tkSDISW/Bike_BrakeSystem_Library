@@ -68,7 +68,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_y7juIBVlEfCx6e9eDEn_oQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Dzy0oBmaEfCx6e9eDEn_oQ" name="[PAB] Hydraulic Nodes" repPath="#_DzsG8BmaEfCx6e9eDEn_oQ" changeId="1744812034751">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Dzy0oBmaEfCx6e9eDEn_oQ" name="[PAB] Hydraulic Nodes" repPath="#_DzsG8BmaEfCx6e9eDEn_oQ" changeId="1744813215653">
         <eAnnotations xmi:type="description:DAnnotation" uid="_Dz3tIBmaEfCx6e9eDEn_oQ" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Dz3tIRmaEfCx6e9eDEn_oQ" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Dz3tIhmaEfCx6e9eDEn_oQ" key="hide.computed.physical.links.filter" value="true"/>
@@ -10860,10 +10860,10 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_59BE5xoqEfCx6e9eDEn_oQ"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_59BE4RoqEfCx6e9eDEn_oQ" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_59BE4hoqEfCx6e9eDEn_oQ" x="83" y="10" width="10" height="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_59BE4hoqEfCx6e9eDEn_oQ" x="103" y="10" width="10" height="10"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_4NDjIRoqEfCx6e9eDEn_oQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4NDjIhoqEfCx6e9eDEn_oQ" x="530" y="160" width="93" height="42"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4NDjIhoqEfCx6e9eDEn_oQ" x="530" y="160" width="113" height="67"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_Dz2fAhmaEfCx6e9eDEn_oQ"/>
         <edges xmi:type="notation:Edge" xmi:id="_mw_-aBmaEfCx6e9eDEn_oQ" type="4001" element="_ghP3kBmaEfCx6e9eDEn_oQ" source="_mw_-YBmaEfCx6e9eDEn_oQ" target="_giTngBmaEfCx6e9eDEn_oQ">

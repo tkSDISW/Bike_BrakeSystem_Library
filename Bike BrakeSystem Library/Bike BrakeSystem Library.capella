@@ -3218,8 +3218,6 @@
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="59a289c8-8070-4fda-b5f7-c77a1cce2bdc" name="PL 15" linkEnds="#4673659f-04e9-4e54-b986-a4104a4b96da #9d6fd188-affd-45aa-8fc6-438e35f8e031"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="6c5c0eb7-6fa6-4113-bc4b-b69241dad6d2" name="H-Brake Line_1" linkEnds="#402c514d-e3c1-427b-a0b1-92f2c15e27a2"/>
-          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="3ca16471-0f55-4d2e-a046-3eca19cf2020" name="PL 4_1" linkEnds="#80f5caad-04cb-4e49-a2b8-78dc0b54bf0d #3a662e29-3f40-44d4-a149-ed7cd950b538">
             <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
                 id="e03e9c3e-4dbb-444f-8956-7078f91c341c" targetElement="#11f735aa-d971-4dec-9a6f-d03990c5a4c0"
@@ -3242,8 +3240,6 @@
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="f0667139-734d-46d9-aa64-cb36d833f3b6" name="H_2" linkEnds="#f3007d47-66a6-4495-9ae8-5ee48f2bc048 #f7f6a0f3-fd00-4727-9ce0-6c01e780e91e"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="affb8055-c9ea-4155-989d-b5dcf3c41b82" name="H-Brake Line_2" linkEnds="#6af2084a-d049-4021-aca8-dbb50abf346b"/>
-          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="b744e40f-08f7-4f4e-ab8b-0e493c0ad166" name="PL 25" linkEnds="#28ec92e4-51f3-4518-9792-259433065ea5 #32b81515-0844-48d4-a253-fe2b4e938723"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="16d03cb6-314c-4c11-b08d-e20f1c2c85e6" name="PL 26" linkEnds="#63326c6c-052d-4567-a03a-3c6c3639c93e #7b580c8b-11c5-432a-ac10-3e75634cf011"/>
@@ -3251,8 +3247,6 @@
               id="52dedd33-fb79-4f5a-bd02-4d599c2ea8c2" name="M_3" linkEnds="#861c189c-da47-44e5-bc2a-2280169244e1 #953ea60e-c511-4312-8fb7-60a585cc01c4"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="8ae8f3f6-d7b3-4864-b163-96e00d76075f" name="H_3" linkEnds="#4164a344-9bb2-4944-8f3d-aca81d1a02fe #372985c2-4e70-4d82-8165-fdc6966db447"/>
-          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="972762be-b6d2-40f2-b012-cfe41d9b5f58" name="H-Brake Line_3" linkEnds="#c2394e0a-6aee-4663-8717-9d42c7920659"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="c441d79b-c33b-4a21-8b23-b10f3abff66d" name="PL 10_3" linkEnds="#8dc8977e-2e58-43df-bef9-018c5bf692e4"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
