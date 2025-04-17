@@ -4537,7 +4537,15 @@
                 id="ce757d5f-9e25-4351-a596-f4182e33e7ba" name="PP 2"/>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="d2d39e46-931b-46ba-9766-b87927d85d5b" name="Right Brake Lever" nature="NODE">
+              id="d2d39e46-931b-46ba-9766-b87927d85d5b" appliedPropertyValueGroups="#3a316499-779a-4d0a-8c29-65266eb8c526"
+              name="Right Brake Lever" nature="NODE">
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="3a316499-779a-4d0a-8c29-65266eb8c526" name="Mass">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="4dd53965-13d8-436a-9108-cd94d14dabea" name="Units" value="g"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                  id="a496225a-441c-4c2c-9b34-9817aa9461d3" name="Max Value" value="14.0"/>
+            </ownedPropertyValueGroups>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="861c189c-da47-44e5-bc2a-2280169244e1" name="PP 1_3"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
