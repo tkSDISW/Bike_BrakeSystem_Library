@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--Capella_Version_6.1.0-->
-<org.polarsys.capella.core.data.capellamodeller:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+<org.polarsys.capella.core.data.capellamodeller:Library xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellacommon="http://www.polarsys.org/capella/core/common/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/6.0.0"
@@ -18,7 +18,7 @@
     xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/6.0.0"
     xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
     xmlns:org.polarsys.capella.core.data.pa.deployment="http://www.polarsys.org/capella/core/pa/deployment/6.0.0"
-    id="3cd1a475-4093-4ca1-9774-5fa9a0ae6453"
+    xmlns:re="http://www.polarsys.org/capella/common/re/6.0.0" id="3cd1a475-4093-4ca1-9774-5fa9a0ae6453"
     name="Bike BrakeSystem Library">
   <ownedExtensions xsi:type="libraries:ModelInformation" id="027944a6-716f-4420-aec1-18d5fde04326"/>
   <ownedEnumerationPropertyTypes xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyType"
@@ -40,6 +40,307 @@
       key="projectApproach" value="SingletonComponents"/>
   <ownedModelRoots xsi:type="org.polarsys.capella.core.data.capellamodeller:SystemEngineering"
       id="116863ff-33c8-4e32-a646-bcb90d13f30f" name="Bike BrakeSystem Library">
+    <ownedExtensions xsi:type="re:RecCatalog" id="2bc0d3cf-815f-4584-a281-893bb614d7b5"
+        name="REC Catalog">
+      <ownedElements xsi:type="re:CatalogElement" id="0a658908-18a0-454c-9de7-3895751cb3a7"
+          name="Hydraulic Braking System" defaultReplicaCompliancy="#3cad6ec7-550a-4a13-ad7c-7e1466114909">
+        <ownedLinks xsi:type="re:CatalogElementLink" id="cf7f2a22-7d1c-4e2c-8db3-6c5fcf57e455"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#071b7c49-431f-4f5e-b8cc-aaefce66a8bc"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="bd13e122-4dc8-42fe-a339-5097119aefb5"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#07ac1f2c-cd29-46e0-abb1-e0a9a685242d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="d947c663-4844-474f-ada0-aa52a1a5d817"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#73384cf1-5f15-4561-a5b0-8cb9cb80495d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="f74907d3-46b4-4083-9e89-693c1530847c"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#cd720a56-faa1-4fb5-8010-d8d1a42753d3"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="2e38bf92-d4ee-494f-8d18-7bdf944a0a18"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#ee871d95-877c-4506-b1e6-423e2cfdde75"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="b833f03b-27a4-413a-aca3-708cc39669bc"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#a75ce4b0-6463-4f66-9975-d050cf1c389f"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="389c8299-fde1-4977-8683-29fc48f15565"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#723ba453-502a-4087-a902-613eeb29edc0"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="fd0f4ac5-b0ad-4407-abcc-d0bb2976d601"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#6fd82483-cf24-4a4a-a7d2-1aae4e37d39b"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="e685a1fc-7852-4b4c-a09e-7591000a26df"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#ea599d4e-4f6f-4019-aa86-d5de54e7fced"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="ae1d34aa-60d9-44c1-9eab-7d24179666de"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#77c25458-2349-4285-85f4-d43c7b50420c"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="0cdb14ba-aa24-4ce8-aac7-60621b5b4c95"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#55433cbf-5590-4bde-83a3-1da84df5b5e2"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="68da35dd-0a5f-4586-903a-b5e7f0d09758"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#e2659ebe-8111-4d8c-acac-598f18cb71c7"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="2095fdee-568b-48cd-9c59-e525f0931a2c"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#3372d7c7-a422-400d-8a81-eb6e6e04f603"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a4c2f180-eb74-4573-b95c-cad3dccfc027"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#e00e55a5-74d6-488e-918d-16cfaf0e698d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="3836f391-f88a-4cb6-ba4d-38701e6a0e97"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#3a237ce7-b792-4189-aef4-20304e86844b"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="269a5cac-1d46-44a7-980b-cb19dc4c2628"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#c583df1b-8274-4613-a224-92c257612703"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="6d4d5a6b-13ff-4ed1-9e90-94f65dbc85ea"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#2e844365-ef34-4155-8be4-e294a67c1896"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="8094a7f1-3660-4347-9241-e97d9193c1d3"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#52dedd33-fb79-4f5a-bd02-4d599c2ea8c2"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="b83affdf-8adc-46d4-b11d-f881a11e8f77"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#7c5c1f12-74ea-4483-b863-b90e7450831b"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="386768a2-c5b9-453c-a5cb-79755649e732"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#1662c6be-e4e2-4865-9d5a-7a1e35bd8bf7"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="4034d0d7-319c-4dae-9848-f7a569646c7f"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#ca17e5f4-2ce5-4339-8127-383dbae3c38a"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="167b6cb5-6b72-490c-819a-042d9e73cfa3"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#7188d833-a20b-4fbe-b6d2-c4d1708e8d15"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="c1fda39f-e248-46f6-b47c-dcadd5d916cb"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#7f96119c-17f6-41d4-a9d7-d5a28a99e18d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="65f1b0d5-fae4-4e4a-b6cb-8e1d66cd42b3"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#c7a1fe8e-f1c5-47ec-8d4c-4e20c127530e"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="daf28a36-f802-4647-92f3-767708a0d27b"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#de4b7868-abdb-4bb3-93d2-1993207ba8fe"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="e61225cf-e7d5-4646-b4fd-0c8a5b74ec76"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#b94e6045-d54f-4e69-9c46-c7d8a8ca9f31"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="d0edd120-7322-4017-806f-5efdbb3f5355"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#03c9fe91-4e81-456d-878b-d3c73419f65a"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="c1582e83-5ef4-4db1-9961-2f7611c807e8"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#b5c6136d-39a2-41d4-a730-8443c9759ec4"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="32189610-24f8-4826-980d-46fb84ebf104"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#6643bba0-b60d-4cd1-9e9e-cf4d0276f7ab"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="add69752-d8d5-4376-96c1-fc93801c72aa"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#953ea60e-c511-4312-8fb7-60a585cc01c4"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="689eeb5c-cba2-4537-9279-6363eddf6143"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#372985c2-4e70-4d82-8165-fdc6966db447"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="6ed0c9a6-6646-4d03-813c-1a0e245975c9"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#c2394e0a-6aee-4663-8717-9d42c7920659"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="7821ccfb-2e95-4644-b4dd-cc45f8df0377"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#941cdc0a-7d4d-4c02-953c-6b30a03be0a6"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="cd87f12e-3d73-4174-bdfe-7876e2d8da74"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#a50273ee-c0d3-4c54-9049-5aee255a435c"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="5ade2f0e-d00f-42e5-8a43-512df2edb84c"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#ebb8d6cb-6ed8-4947-8276-d498bce58ddb"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="84a10be1-be0c-4091-a87f-84723836f1c7"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#a92cc9f3-5195-437f-bd7e-9109bb30cf52"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="6502b246-170a-4800-a556-57f0f580d613"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#4164a344-9bb2-4944-8f3d-aca81d1a02fe"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="1cb80017-2673-4545-bffe-68193ee83d86"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#fb225139-bae5-474a-bb5c-fef4b99803c8"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="9f3a5d78-48e7-4a03-ae66-5205464a8dbd"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#802dbe16-e87a-47c6-993e-30dc54124569"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="cb40f136-f1ea-46ea-95ed-76439bc7f8b0"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#9080de5a-62df-4e6c-bc0a-e2599abf75d2"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="ecffdc2c-ae47-450c-bb0e-b4da67f17ddd"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#7738d0a7-7ed3-4ec6-9d18-621cc48b83ec"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="24a284af-b66b-48d0-852c-60e34d6d405b"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#07d1ad9c-6c99-4920-9e54-901296f2ecb2"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="64fda3e0-9d06-47c0-9477-34a735600fdb"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#f8f833de-e1b1-4e45-9992-1b23b4a3731a"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="f03b71b7-39a8-41eb-88c8-1a7bd6ad0b27"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#51af6c44-a8b0-47da-a7e3-ff3937e470c9"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="0363afc4-710f-49a5-b1d5-6549d7d1640c"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#4673659f-04e9-4e54-b986-a4104a4b96da"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="85358b6b-e178-4f65-a563-122b233671e1"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#2c5f3705-a4ef-48ed-957d-09799a2a1206"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="f8ed2b85-8118-4cf7-b8aa-ceac860c246c"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#dc25d301-3310-451f-b902-5919649764c4"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a7e69b8d-4607-4ee0-99a2-a6414f7ab804"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#9fb2ff20-b0d7-4cb7-9c38-9571d44b3f0a"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="fce147c7-692b-4f39-b368-15ada0a01db6"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#3ca16471-0f55-4d2e-a046-3eca19cf2020"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="5337c2a0-d2a1-42a1-a26b-34ed7d0f8b5c"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#c7e44972-58b9-4a63-be10-26fcbb2a9760"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="149bd877-7633-463c-bc50-37cffd624809"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#8dba6d57-f420-4903-9ad2-f50466db0516"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="40be5f8e-4482-451a-87ae-0c4a0e320769"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#2ea369a6-abfe-4565-a541-b66ac4055fe8"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="9783677d-3705-4dbc-860d-a0b46928d2a8"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#be5efb21-316e-484d-a2e1-fdbb4d25864b"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="c8b8db7d-db01-4ed2-b343-19b856993451"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#8a725f08-0331-45de-8623-6b952201fcb0"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="6fdeb915-7990-4fea-8a8f-8931aa2cbda9"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#a6bd4806-4d58-4946-84b6-d7bf91421d5d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="e8285fa2-a25c-48a3-a244-f206c8e3aa05"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#1ab15901-7a9e-4b65-888c-61091cb8eb0c"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="7d8bd39d-6728-4a7b-a991-14efce738bf7"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#5e19da1b-54a7-491c-9d01-eefd63e65ee3"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="5c71993e-6122-4221-8560-f86c37754feb"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#302c2438-b435-449a-bdfd-803c7326c584"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="117a05af-982c-4101-8f78-4078958222bf"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#ccddab37-fe89-4d18-8b51-e8f545277aa8"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="014d5e71-17b6-4b5e-ab91-1b1d194d516b"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#7af1ae2e-8b9e-4fd6-a613-6ee8da015c06"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="165430c8-62ef-47c3-a5e6-bc757b2d78bf"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#a77add38-88ad-4ff5-acb0-4a62f3d9d800"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="400f00c7-01f1-4966-87ca-9fb3a73fc301"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#a5aabd6e-01d1-464c-9b44-9bdbd56bfd03"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="19019a17-3dba-4eea-be87-8dd950102bf7"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#9dad3efb-3b85-46f7-b7b2-21af2b4ed990"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="6eea87e3-4e2d-4493-b747-24f17a8a9398"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#656550fb-b1fc-4b33-b7a1-36ff14c8e152"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="f382eb82-6f51-4142-abcb-da3e475e0ca0"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#164c84d3-f8c5-4be7-af04-e75078c6d4bf"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="09a68a21-4dfb-4938-b832-d5344da20339"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#083a64ec-568c-4bfd-a0d9-0f59520076b0"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="e0063163-cacd-416a-95d6-99905dd56a0b"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#9c43958f-ae00-468b-8350-18ef9b8b58a3"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="c72496bb-08f7-4821-9842-7bd4084b9629"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#487e5202-b09f-435c-a352-7a5a2088591d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="50c3aa18-4025-41c6-ae6a-0b1a3f40d920"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#4beb93fd-b453-4025-901e-a82965595457"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="72e444ed-28c9-415c-9feb-caf47be03413"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#0f1bff95-fd8a-4da0-a8d4-124f47d34479"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="7a4faf6e-3cef-4757-bb06-7df790dcf405"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#29e3a7bc-117a-43f5-aaad-ab78ef78aaaa"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="b6935ee1-b530-41ca-a5fa-a09da7df14b5"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#b5ba4c87-852f-492d-871e-f2530168dd4c"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="105ee25b-6e49-4c59-873e-c4cce0f60941"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#d2d39e46-931b-46ba-9766-b87927d85d5b"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="27112f12-1eea-48a5-a529-be8a00878cd7"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#3a316499-779a-4d0a-8c29-65266eb8c526"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="1bfa32c7-39c5-4567-a59d-76a3e1a655f2"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#4dd53965-13d8-436a-9108-cd94d14dabea"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="21ed30c5-dd05-4784-9923-14fbfb7784b1"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#a496225a-441c-4c2c-9b34-9817aa9461d3"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="aea42221-3e21-4bca-a10c-2a4ceb0c0a2a"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#861c189c-da47-44e5-bc2a-2280169244e1"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="2be04c40-9284-4f34-a75b-7e5eec25fb3f"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#39c15a63-f4de-47fe-b47e-854e59c57692"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="e7d12c20-30b2-4fcc-9739-708d2dc1d5e5"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#60546210-22dc-45b7-853c-c536193deb28"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="de706d97-a5e1-4634-8dc6-343d89d31549"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#bf3f3ac7-6155-48f7-bf4f-57eb435fd4ad"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="587f8fd7-e9e6-41a5-91a8-888afd97b424"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#e8e5579f-b5e7-434c-b3e3-342d428a6bf7"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="2dde7546-917a-485a-b68f-7d79f50d39be"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#d50c1c7c-0b40-43f0-8c55-6bbedfefefd7"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="ef3549d7-78bb-457f-934c-3db34b7ea5a8"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#be24a500-cdc4-4c1a-8d94-c4738072e809"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="2b3a5b97-2303-4537-8298-a40077b6f239"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#8bfa97a3-a27d-4a43-8273-c2188495c0b7"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="56365fc0-42a1-4e90-84b3-7e35282dc5dd"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#e1ca58a9-057e-4a43-b92d-461d97507d88"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="54cbc3ce-452a-4010-8b9f-636f247830ff"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#f72c133f-4250-4013-9e22-3bda7eebfa2f"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="5d41abe3-5a6b-4787-9181-000b8109642d"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#f767662d-08d1-4c9f-a980-c9e26ef43ec7"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="eea094e4-1e53-45a2-b84d-657a1273c41c"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#ac3f9033-9c05-4991-bc51-2568ea090774"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="93a0f104-b3e3-440f-a225-316708d0951b"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#5a24d4ff-76a8-499d-90d8-a16455417797"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="799eb4f8-cd1a-440d-b571-f831b345de4d"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#6e4b7c7d-aa38-49c1-9dc4-5a7a19d265d4"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="0107a8ce-4aef-4c32-a1ec-a0c9ecf07963"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#8ac9aa2b-5476-4b2f-bb4f-7ed7293ed3db"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="e73032da-6b39-47db-9a48-898951edbf9b"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#39ad358e-ec9c-4d8c-8dfc-50b59f24d5fc"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="6275d8b3-5878-4eee-837d-358754906a25"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#a5d2f651-eb84-4938-b941-2f7ca393a714"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="cfe601fa-d924-40dc-8986-e4a783107695"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#3a662e29-3f40-44d4-a149-ed7cd950b538"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a30af087-2bac-4e88-8c3d-4e008e9c53c8"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#4e31e90d-80d7-49da-8737-a5c16ea1ad2f"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="467f0cd7-8185-4f4f-9538-2654ecec612a"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#69a783d6-5b82-4329-accb-945a0f30a9c7"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="e76b7bdc-3a3c-46da-af32-d289e08a631b"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#b0d0bd11-32b2-47b9-a54a-d3a338215837"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="11082717-f2c3-4b1f-b866-1ba02c5af151"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#4b1c3f76-22ea-4a69-99e2-66ab4176e57a"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a790b374-ac56-4097-9f11-987df6b5f423"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#b928ff2b-374c-4e1d-8c17-3d25066c031d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="cd40de21-f59c-45fe-9960-ec8664fd2b23"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#c02810bd-192b-4f15-bc60-dc6104b51c4a"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="656e0c51-8c7d-499b-ae92-34421be567e4"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#c2b5853a-8287-4a7a-a60f-85609475ef5d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="2614d2b4-645b-4a99-a7e4-58e651c87ee1"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#80f5caad-04cb-4e49-a2b8-78dc0b54bf0d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="f84c3671-195e-4989-bdba-372531eac17e"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#0fd364ad-4e59-4a32-865a-09ae8f508496"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="335a4d36-748a-4921-b6eb-31f398375418"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#58b4e8d0-4a8f-4215-b468-f09b5eb9ae8b"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="ee617562-8bef-4c25-ab19-6a17b57e8630"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#4833d1be-7b27-4e8b-9db0-03053500711e"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="193310b7-c03a-4362-a3fd-5a223a010514"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#786cc683-368d-4722-8762-e19fd1842aaf"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="20f93d3e-9fb4-4f59-b5bd-b344b997b67b"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#df5be3a9-ef64-4640-b2b2-1cd0601174af"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="76c78e2a-24bb-4ee5-aa85-f36f4d0c800c"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#351566d5-732e-4374-ad8e-bcd1f5871363"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="c1e1836f-9291-407b-9843-e119eadba795"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#0df247f9-a60b-460a-b03b-3ae0a22c68fe"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="d062c365-8e9b-4a8c-b416-9c15025fe46f"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#d8f169f1-52f4-4ae1-9013-fc45d0c4f1dd"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="71abf319-5e06-45fa-99e1-c341ca0fd6c4"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#d670d983-6078-4c75-ad60-a08cef92a5f6"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="309daefc-757f-4f21-8f68-0178be2da6a7"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#fc2f08f9-89b0-403f-97e8-875907f43a7c"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="5c3a0542-71f6-425c-bf6a-fcbb9e7cd3fc"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#9e59d76b-ff0a-47e7-984d-293a35cba851"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="5ef7b5f8-c334-4102-b49c-197b89c824b3"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#880ad45b-d4f1-440d-a7c3-9659cc656c4d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="40bf2ba9-b126-414e-bc52-1315d2faf462"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#2ae4a6d2-8dc0-46b9-9e52-5c14e379d4ca"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="431e4c49-520d-48f1-a39e-cdddd60262ac"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#8f1f3680-7034-4209-b56a-5dceba2fd11e"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="8bce7826-4840-4df7-ad35-71878c6849bf"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#63326c6c-052d-4567-a03a-3c6c3639c93e"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="063c2999-8fd5-485a-827d-53be364f56a0"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#41acaea1-9617-4e6a-8657-3069c64c329b"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="7f795703-5934-469a-b293-d0c940c42e09"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#34f173bd-e052-40c7-b211-ff0f2b13615f"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="6b3369f2-c4b8-4fe1-8785-f1b5c988026e"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#5971a159-e19c-49e5-9904-bf4c49b417a3"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="8765220d-c0ee-43b0-ac12-9a0b7efbab50"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#a863de18-a8f4-4c92-bb7a-cba4207aed8c"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="701d4c8f-106d-4dc9-aa12-7d4e85fe4f20"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#06ac8f79-5ef0-4bec-827b-fef6fc910fac"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="cc4ac290-a263-4cee-8621-557eb95249fb"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#9931e4f0-01c4-4ab5-b6ee-e0d209ff07bf"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="e29f30bc-97e4-4715-82de-5a55adcc1d88"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#2af44827-c6dc-402a-85f8-e485dbfcaf86"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="51c59e3c-5595-445f-a69d-269aa6e227f4"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#8a8f1462-cc2c-4d86-89ab-acedced39ac4"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="4947ac06-cb1c-478a-8a35-cfdd9a3b5fd8"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#28ec92e4-51f3-4518-9792-259433065ea5"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="b7946c5b-df8a-4b39-a314-73dbba646bc0"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#8ae8f3f6-d7b3-4864-b163-96e00d76075f"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="228ec86f-0e57-4122-8671-31a0e3816155"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#40f28a74-8e53-4b25-bf6f-f472ebaa91cf"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="f96c8a95-2482-4e45-8172-86c0c43972c9"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#21cd033f-340f-4f22-8fde-06c01fa84443"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="7d9150a7-91c1-4271-8fed-eca3dfe89a09"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#ae2349d9-dfb7-4b29-8a95-c52f350e740b"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="1be78252-79de-4b7c-acd2-fc2baaa93896"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#da20fdd4-57e8-48b4-8d4c-b8830bf2c32c"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="ab6a5561-5b3e-4dad-98bf-fc96e150d2b7"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#7369cb59-d224-4b86-ad95-c451ffa68a6d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="9ec1835e-50d5-4ecc-9e64-9849248b164c"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#3948ffbf-e390-481d-b17e-075d8dad3581"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="fd0f638c-6750-4b73-9de4-23300d437810"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#46e24a0c-d8ee-487e-8160-024d69668341"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="0552fb8e-f02b-47c0-a4cf-198be313546a"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#22862d0c-7acc-4444-991d-cd16b9d1554b"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="c8fcb96c-2981-484d-982e-010f8858a4ab"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#c7e4d3e7-5f78-4edb-a457-060427f29092"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="fe64c9d1-b1be-4575-b55f-b9311005ba47"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#25c4a8f3-59c7-4240-b614-9fa01c3dcdd7"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="2ffa21d8-799d-436a-a416-42b91c966def"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#58433acc-108f-4398-af8c-2ed6cf8383bc"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="3d0384d5-5da7-4f68-acde-ef324040a4e1"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#5a82edce-b262-45ef-bf76-5594ffb5ea0c"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="9015696c-3156-4550-9d3d-104226fa05cd"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#48a98d43-e85e-4d02-a7cb-c5e5d542410b"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="8ed7560d-f8db-4eb6-b947-8d695057d13b"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#402c514d-e3c1-427b-a0b1-92f2c15e27a2"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="0cea2fda-b97a-48b4-b062-fc0bb9eb8342"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#8bea704d-8259-47ce-a2de-7c18af576183"/>
+      </ownedElements>
+      <ownedCompliancyDefinitionPkg xsi:type="re:CompliancyDefinitionPkg" id="1eac322b-003b-4d95-be0c-00290d1e5bb2"
+          name="Compliancy Definitions">
+        <ownedDefinitions xsi:type="re:CompliancyDefinition" id="3cad6ec7-550a-4a13-ad7c-7e1466114909"
+            name="BLACK_BOX"/>
+        <ownedDefinitions xsi:type="re:CompliancyDefinition" id="3fe96765-ff76-4dbe-809d-f15976596fbd"
+            name="CONSTRAINT_REUSE"/>
+        <ownedDefinitions xsi:type="re:CompliancyDefinition" id="39fe010d-a8da-4981-a458-44b4fce1f710"
+            name="INHERITANCY_REUSE"/>
+        <ownedDefinitions xsi:type="re:CompliancyDefinition" id="4eec11dd-b78a-4d51-812c-0cbc8389919c"
+            name="SMW_REUSE_AS_TC_OCCURRENCE"/>
+      </ownedCompliancyDefinitionPkg>
+    </ownedExtensions>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.oa:OperationalAnalysis"
         id="8c1f5981-08b4-4ca0-bd89-068699b8aae4" name="Operational Analysis">
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalActivityPkg"
@@ -3147,10 +3448,6 @@
         <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
             id="28e97ec8-a460-4c36-b67d-1f2d4711719d" name="PL 2" linkEnds="#ce757d5f-9e25-4351-a596-f4182e33e7ba #8fea5d91-b7b5-45f3-8ab9-890f435a6e39"/>
         <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-            id="82e34148-777f-4646-9182-60f3fc13a5e3" name="PL 3" linkEnds="#8dc8977e-2e58-43df-bef9-018c5bf692e4 #76441682-9b5a-4d16-b51f-c4177fa1ede7"/>
-        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-            id="9bde609f-8f7e-4dfe-90e4-3c496eafb05e" name="PL 4" linkEnds="#83063c25-7639-406d-bd45-47cdbf19ce71 #b15e8a56-d3d9-4d32-a7ca-b337db77a2af"/>
-        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
             id="073c2b89-2b06-4eb9-9385-333ec772216a" name="PL 5" linkEnds="#1ab15901-7a9e-4b65-888c-61091cb8eb0c #5802af3b-8d7c-49e5-b28e-afd0d438a74a">
           <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
               id="4e69762f-fc13-4536-b8e5-80ca36eab4af" targetElement="#eb38a57c-0a59-4419-bf6a-4cad3c8f5d33"
@@ -3330,7 +3627,7 @@
                 location="#34f173bd-e052-40c7-b211-ff0f2b13615f"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="0f1bff95-fd8a-4da0-a8d4-124f47d34479"
-              name="Right Hydraulic Brake Assembl" abstractType="#7188d833-a20b-4fbe-b6d2-c4d1708e8d15">
+              name="Right Hydraulic Brake Assembly" abstractType="#7188d833-a20b-4fbe-b6d2-c4d1708e8d15">
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
                 id="32fda60d-5ce8-4277-b9a7-bc9890a767fa" deployedElement="#216e7945-2f72-4ba6-ad86-896a50dfd778"
                 location="#0f1bff95-fd8a-4da0-a8d4-124f47d34479"/>
@@ -3418,8 +3715,6 @@
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="fd0a665a-de26-4607-80c9-d326c9d1914d" name="PL 9" linkEnds="#07ea7313-7f4c-4c63-9db3-0df9d65e0d0d #240b876c-e1fe-43a1-9b86-028766b95153"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="69058345-b1a2-4941-ae93-752aedd80ca0" name="PL 10" linkEnds="#b8da1418-5395-47ae-bd23-3ef1814a7d68 #83063c25-7639-406d-bd45-47cdbf19ce71"/>
-          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="6f9ed8a9-2622-47ec-ba3d-cfedcb5204d9" name="PL 11" linkEnds="#0f01c1cd-6810-44a5-b01e-183e57801c43 #825e1413-821a-41f1-b9ff-03b96cb49916"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="59a289c8-8070-4fda-b5f7-c77a1cce2bdc" name="PL 15" linkEnds="#4673659f-04e9-4e54-b986-a4104a4b96da #9d6fd188-affd-45aa-8fc6-438e35f8e031">
@@ -3465,8 +3760,6 @@
                 id="00b59536-a944-4327-a42d-a5d4f5ee2466" targetElement="#becabdda-c646-47e7-9e65-c81df195f582"
                 sourceElement="#8dba6d57-f420-4903-9ad2-f50466db0516"/>
           </ownedPhysicalLinks>
-          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="3d607375-17f5-4339-8a0a-74ace3e30b6d" name="PL 32" linkEnds="#8dc8977e-2e58-43df-bef9-018c5bf692e4 #ecaa5631-52dc-4d4d-a31c-c7e18f694bd9"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="29e3a7bc-117a-43f5-aaad-ab78ef78aaaa" name="PL 30" linkEnds="#8bea704d-8259-47ce-a2de-7c18af576183 #b0d0bd11-32b2-47b9-a54a-d3a338215837">
             <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
@@ -4146,7 +4439,7 @@
                   sourceElement="#ac3f9033-9c05-4991-bc51-2568ea090774"/>
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="5a24d4ff-76a8-499d-90d8-a16455417797" name="PP 2"/>
+                id="5a24d4ff-76a8-499d-90d8-a16455417797" name="Rider"/>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="802dbe16-e87a-47c6-993e-30dc54124569" appliedPropertyValueGroups="#9080de5a-62df-4e6c-bc0a-e2599abf75d2"
@@ -4171,7 +4464,7 @@
                   sourceElement="#51af6c44-a8b0-47da-a7e3-ff3937e470c9"/>
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="4673659f-04e9-4e54-b986-a4104a4b96da" name="PP 4">
+                id="4673659f-04e9-4e54-b986-a4104a4b96da" name="Frame">
               <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
                   id="f136f3e8-7662-4887-9a64-bf2fbd8f7134" targetElement="#c4597ad1-15c8-443d-a073-a30cc4704105"
                   sourceElement="#4673659f-04e9-4e54-b986-a4104a4b96da"/>
@@ -4202,7 +4495,7 @@
                   sourceElement="#8a8f1462-cc2c-4d86-89ab-acedced39ac4"/>
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="28ec92e4-51f3-4518-9792-259433065ea5" name="PP 3">
+                id="28ec92e4-51f3-4518-9792-259433065ea5" name="Wheel Tires">
               <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
                   id="7448c333-4090-4d8f-b30b-f30874013df5" targetElement="#5bd008ec-5006-4884-a708-7831a13bf574"
                   sourceElement="#28ec92e4-51f3-4518-9792-259433065ea5"/>
@@ -4331,9 +4624,7 @@
                   location="#a6bd4806-4d58-4946-84b6-d7bf91421d5d"/>
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="83063c25-7639-406d-bd45-47cdbf19ce71" name="PP 4"/>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="1ab15901-7a9e-4b65-888c-61091cb8eb0c" name="PP 5">
+                id="1ab15901-7a9e-4b65-888c-61091cb8eb0c" name="Cockpit Handle Bars">
               <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
                   id="63c4c056-fb99-4dd3-b660-2ba56daa6633" targetElement="#95824ad9-ec7c-48b7-8c51-df233bf1cd53"
                   sourceElement="#1ab15901-7a9e-4b65-888c-61091cb8eb0c"/>
@@ -4384,7 +4675,7 @@
                     sourceElement="#487e5202-b09f-435c-a352-7a5a2088591d"/>
               </ownedFeatures>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="4beb93fd-b453-4025-901e-a82965595457" name="PP 2">
+                  id="4beb93fd-b453-4025-901e-a82965595457" name="Rider">
                 <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
                     id="a8cbe54d-c290-4c76-9625-51e19b4c3b4a" targetElement="#a6322aa9-8326-43b7-85fc-d81b7c2fbd78"
                     sourceElement="#4beb93fd-b453-4025-901e-a82965595457"/>
@@ -4414,7 +4705,7 @@
                   sourceElement="#4e31e90d-80d7-49da-8737-a5c16ea1ad2f"/>
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="69a783d6-5b82-4329-accb-945a0f30a9c7" name="PP 4_1">
+                id="69a783d6-5b82-4329-accb-945a0f30a9c7" name="Frame">
               <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
                   id="fc32a380-db58-431c-ba57-726fe2097e77" targetElement="#659e8a17-b99a-49be-8152-9ce6ecd14913"
                   sourceElement="#69a783d6-5b82-4329-accb-945a0f30a9c7"/>
@@ -4549,10 +4840,10 @@
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="861c189c-da47-44e5-bc2a-2280169244e1" name="PP 1_3"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="39c15a63-f4de-47fe-b47e-854e59c57692" name="PP 2"/>
+                id="39c15a63-f4de-47fe-b47e-854e59c57692" name="Rider"/>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="7188d833-a20b-4fbe-b6d2-c4d1708e8d15" name="Right Hydraulic Brake Assembl"
+              id="7188d833-a20b-4fbe-b6d2-c4d1708e8d15" name="Right Hydraulic Brake Assembly"
               nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7f96119c-17f6-41d4-a9d7-d5a28a99e18d"
                 name="Right Piston" abstractType="#b94e6045-d54f-4e69-9c46-c7d8a8ca9f31">
@@ -4567,9 +4858,7 @@
                   location="#c7a1fe8e-f1c5-47ec-8d4c-4e20c127530e"/>
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="8dc8977e-2e58-43df-bef9-018c5bf692e4" name="PP 4_3"/>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="de4b7868-abdb-4bb3-93d2-1993207ba8fe" name="PP 4">
+                id="de4b7868-abdb-4bb3-93d2-1993207ba8fe" name="Cockpit Handle Bars">
               <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
                   id="d86046a1-da66-449b-8658-289349b3b59f" targetElement="#f2047a50-1e40-4ee7-9cde-1ee8724b5276"
                   sourceElement="#de4b7868-abdb-4bb3-93d2-1993207ba8fe"/>
@@ -4608,7 +4897,7 @@
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                   id="4164a344-9bb2-4944-8f3d-aca81d1a02fe" name="PP 1_3"/>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="fb225139-bae5-474a-bb5c-fef4b99803c8" name="PP 2">
+                  id="fb225139-bae5-474a-bb5c-fef4b99803c8" name="Rider">
                 <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
                     id="661af822-de43-4771-9247-511f5df50bda" targetElement="#09a39c82-68f9-4d56-a70e-73758e2b2a13"
                     sourceElement="#fb225139-bae5-474a-bb5c-fef4b99803c8"/>
@@ -4739,17 +5028,13 @@
                 sourceElement="#6637a786-ce27-4920-a54a-3a55a2a91ab5"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-              id="76441682-9b5a-4d16-b51f-c4177fa1ede7" name="PP 2"/>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-              id="b15e8a56-d3d9-4d32-a7ca-b337db77a2af" name="PP 3"/>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
               id="281db34d-8709-4713-ad79-d715fea94ce3" name="PP 4">
             <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
                 id="efe14195-b16f-4de6-a0f5-f4006da0a47b" targetElement="#6637a786-ce27-4920-a54a-3a55a2a91ab5"
                 sourceElement="#281db34d-8709-4713-ad79-d715fea94ce3"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-              id="e2b490a6-d15b-4416-9500-d7de955676dc" name="PP 5">
+              id="e2b490a6-d15b-4416-9500-d7de955676dc" name="Wheel">
             <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
                 id="1832fbb3-fb31-44a1-a9b9-20cbad857f57" targetElement="#6637a786-ce27-4920-a54a-3a55a2a91ab5"
                 sourceElement="#e2b490a6-d15b-4416-9500-d7de955676dc"/>
@@ -4899,4 +5184,4 @@
           sourceElement="#9f3b9be8-dd5e-4a99-811b-46bd4c7bdff6"/>
     </ownedArchitectures>
   </ownedModelRoots>
-</org.polarsys.capella.core.data.capellamodeller:Project>
+</org.polarsys.capella.core.data.capellamodeller:Library>
