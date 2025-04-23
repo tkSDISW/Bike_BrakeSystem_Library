@@ -328,6 +328,108 @@
             source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#402c514d-e3c1-427b-a0b1-92f2c15e27a2"/>
         <ownedLinks xsi:type="re:CatalogElementLink" id="0cea2fda-b97a-48b4-b062-fc0bb9eb8342"
             source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#8bea704d-8259-47ce-a2de-7c18af576183"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="8e05bf4e-e2ef-4e7a-a9fc-34a237d41443"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#23eac530-5c75-420f-8599-65a7dc538eca"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="44ea51d6-f9f0-4f83-9d60-2ca860b94756"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#535aff49-7ec6-4468-9078-ba6a37d80a28"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="4db2c1f4-cd8b-4767-b826-7a7bb819f1ef"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#b7778585-539c-4bee-8655-d8f83103394d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="5f882a00-0dac-4c5f-a347-90e8802b0dcf"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#c450a083-677b-41d4-9c5d-8d07d2076aac"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="b0ca512b-e689-4daa-864f-23f6eef71fe5"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#f25ca669-ae24-47d9-abf5-5a834aba1f2e"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="d087af88-124c-4e0c-857c-fbab34953e08"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#a0be1f4c-317e-4876-995b-cea8a3f9909a"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="ba608661-cec4-4c97-b767-1b1dabfe9cf9"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#f136f3e8-7662-4887-9a64-bf2fbd8f7134"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="9c81b300-dd9d-4e4a-9ac9-34d8aab0d144"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#6675487f-ba1d-4472-a767-d8aa06855424"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="19692d7b-19fe-4b73-9a14-710903d01fce"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#5f13f7e8-8283-4471-ba05-f325ebc1b5ab"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="58bff49a-ba82-47a2-972f-03e10c020c8a"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#0f468da4-72ff-47f7-af05-faa923d3b500"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="d5c51117-d481-479a-b6f9-e66622c8f631"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#3ef79fb5-513c-4ace-8d20-4079d9178858"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="6fda63cf-8095-4986-bc35-ecbe29a70c62"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#ef34c68e-cf5d-44a5-a584-53be50dfa0b5"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="3d45b0cd-31ed-4a5c-997f-2c86bed4d5ff"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#d0f3deea-a611-48bf-9f7f-11519e7e9a87"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="2d685213-072a-42ce-aefa-8ad155b5c6e7"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#0977ab94-ec30-4dbf-bd24-b9c6629fa129"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="1efda84d-43a3-4a71-9de8-acd350a9e4bc"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#13d12de4-5df7-48b8-a3c7-d915f5613860"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="ecee27b2-edfb-4d53-8d77-63aa509edf57"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#90abef1c-09bd-463c-bf4b-c522d4754c0a"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="1dfdf2d3-badc-43a0-b356-52abf8810d2a"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#acfbd952-c00f-449b-acc3-7cf69c94ee17"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="2039a4e5-3968-4ed8-97dc-15b138330028"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#7448c333-4090-4d8f-b30b-f30874013df5"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="97ef98bf-9d37-4d39-9c96-19c00ef57f49"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#1f87aae8-8a6f-4285-b216-9acd1f2ecc76"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="5cf1808c-4ccd-47b7-997d-57211d2cb507"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#f21a4be3-438d-4df4-8dc7-c8e6eb7aa1ef"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="3e8bea78-4fe9-4580-a5c4-992cfcc1fe99"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#aef6aca7-9cc4-443e-b8f4-3f5193f2a838"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="6b2dd5ef-1f1f-45bc-913f-d64c745f5cd5"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#b8c12dbd-8ab6-4202-a2f1-e5190cb84957"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="2de11724-784d-4e7a-8146-96dc39e5327a"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#78926d9d-d2d9-434b-9845-a0ec47b98014"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="67ff8228-2911-4649-b0c8-59a1bb17caf8"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#fc32a380-db58-431c-ba57-726fe2097e77"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="3d367f29-6a07-4f83-a848-6cdac670f2f5"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#1f3487fc-8750-4358-bf5e-f04d05b69833"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="df798af4-616e-4ea9-a3f6-87cf4f70311e"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#323b984f-5d09-4490-a053-35b579fdb530"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="99214f8a-a3cc-4fdb-bf39-1ed037e4dfff"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#4c458916-a68c-402a-b7de-207d6d452cb3"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="4653ab3d-8a83-436f-ad41-2248f1f48643"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#74f94af9-bdf5-45a3-8429-c23d3d9e1033"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="61747b20-2970-4da0-b33d-d8469fdfcaf4"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#773ae3c7-e6be-4872-811f-8bdbaa095404"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="5825ead2-2eae-482e-976e-4f5d9a77db69"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#670fd3a1-aa5e-4ba3-99e2-71b16cbae3d0"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="3569a0e4-8e4f-40c9-99b7-b2df4603b2ca"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#3610c49c-220d-4544-8a7e-704fd8a8d9fc"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="be2797cc-c856-4e93-8528-e3ca447a2f6e"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#bbf2936f-7cb5-4a68-ba95-5eab8f13f142"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="07390fcb-035c-462d-8bdb-762caab5bf56"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#661af822-de43-4771-9247-511f5df50bda"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a76eaa52-0dfc-4d76-84f9-fa7f92bb5ab4"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#8ae7750b-6bea-4d96-8429-59cf6806ae45"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="cf5b36df-9cf1-4b5d-ac3d-790aa1b82698"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#02cc7a2d-bb44-41a9-a3ac-6ab2e3cc8cf7"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="3a6df1ec-e05a-47a2-b97c-d2c857c7e613"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#d047ddea-1780-4d39-944d-6d381844e18c"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="c116dea6-ae70-4c0f-9c07-78cf7d76f9ac"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#63c4c056-fb99-4dd3-b660-2ba56daa6633"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="32e36efc-94f7-4126-baf3-0f795e23f3e3"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#2545a57a-4be6-4b5c-bb5a-05c47f150f2a"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="0f0ac97b-322d-4c30-847b-f918a2763344"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#9e0106c0-ddaa-4225-ac5a-94377cc1ba78"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="decae9f8-d310-4223-98ba-e1f6094df8db"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#4a17aac2-8ff8-4917-98cd-24ef68df46e8"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="b1caabcb-7ee4-4f64-98d7-b4de2721683e"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#ae0109f4-9953-42a2-bf0f-519c18bf532a"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="c039cc7a-5e92-4695-a0bd-30cb7d4f29f3"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#a8cbe54d-c290-4c76-9625-51e19b4c3b4a"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="4a51afb7-6eca-4ec3-be39-cc8b3639b24d"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#038f648a-8735-4aed-9e0d-78781ba70861"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="289b906c-1031-4b60-b9f9-9e748e650b40"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#4ff9d450-37de-4ee4-9844-d0402b72a125"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="478fbafb-5c5b-41ce-8d31-719cb0c5c4d3"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#9e9ebcaa-b8e1-4590-af7f-cc37a0664642"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="744ece49-db57-4699-86ec-4483e85b1bb6"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#7f490ef9-2552-41ea-bec4-22bdeaa3a5c8"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="b7eff245-fa98-4e9e-bc47-6f265371487f"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#3718e165-00a2-41ca-a8fe-415df802025d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="11d00652-4c4b-4ba8-b127-f871cea0fd95"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#32fda60d-5ce8-4277-b9a7-bc9890a767fa"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="cae61714-c3a1-44c7-8c62-921a351a0bfb"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#da67aeff-f2f4-4310-96e2-e0beba3ce80e"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="51c6d9a7-d0ec-42a2-bd11-090e275186fa"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#a3f254c9-12e6-45b6-a062-4a2478a359d9"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="1dd8f23f-2cfc-4b4d-bb08-b4ab60b71b3f"
+            source="#0a658908-18a0-454c-9de7-3895751cb3a7" target="#09b8bfec-7c46-47bd-9711-15a12bdd9fc1"/>
       </ownedElements>
       <ownedCompliancyDefinitionPkg xsi:type="re:CompliancyDefinitionPkg" id="1eac322b-003b-4d95-be0c-00290d1e5bb2"
           name="Compliancy Definitions">
@@ -3864,18 +3966,6 @@
               <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                   id="96adf11e-08be-4f8d-96e4-33f73e31743e" targetElement="#e2b6da81-91f7-4312-8197-a862b93aaf4e"
                   sourceElement="#f5e4bbff-ae31-466e-af5b-ed6346f855c0"/>
-              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-                  id="93e78c08-1449-4d35-b0df-e47c8507f21d" targetElement="#2bd342ca-10ab-4dd3-ad5a-ee018b452de8"
-                  sourceElement="#f5e4bbff-ae31-466e-af5b-ed6346f855c0"/>
-              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-                  id="b400c719-af91-4222-882e-add43e449e62" targetElement="#ab82b2d7-649d-45e8-9834-bba3930a6fc2"
-                  sourceElement="#f5e4bbff-ae31-466e-af5b-ed6346f855c0"/>
-              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-                  id="a63ef822-ce15-4bca-ac21-c283e9069abb" targetElement="#96d7e9fa-6d66-4b18-800b-f474f585dd69"
-                  sourceElement="#f5e4bbff-ae31-466e-af5b-ed6346f855c0"/>
-              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-                  id="fd6075c5-8f9e-4a78-ae8e-cdcc2128ce4b" targetElement="#3264f5e4-7b0b-4fe1-8e7f-66f304441a84"
-                  sourceElement="#f5e4bbff-ae31-466e-af5b-ed6346f855c0"/>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                   id="536e71a5-10ce-4b1e-8457-1cd1919e6a7b" name="CP 1" orientation="IN"
                   kind="FLOW">
@@ -4473,7 +4563,7 @@
                 id="2c5f3705-a4ef-48ed-957d-09799a2a1206" name="PP 5"/>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="5971a159-e19c-49e5-9904-bf4c49b417a3" appliedPropertyValueGroups="#a863de18-a8f4-4c92-bb7a-cba4207aed8c"
+              id="5971a159-e19c-49e5-9904-bf4c49b417a3" appliedPropertyValueGroups="#a863de18-a8f4-4c92-bb7a-cba4207aed8c #d0f3deea-a611-48bf-9f7f-11519e7e9a87"
               name="Rear Rotor" nature="NODE">
             <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
                 id="a863de18-a8f4-4c92-bb7a-cba4207aed8c" name="Mass">
@@ -4481,6 +4571,13 @@
                   id="06ac8f79-5ef0-4bec-827b-fef6fc910fac" name="Units" value="g"/>
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
                   id="9931e4f0-01c4-4ab5-b6ee-e0d209ff07bf" name="Max Value" value="270.0"/>
+            </ownedPropertyValueGroups>
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="d0f3deea-a611-48bf-9f7f-11519e7e9a87" name="Cost">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="0977ab94-ec30-4dbf-bd24-b9c6629fa129" name="Units" value="$"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                  id="13d12de4-5df7-48b8-a3c7-d915f5613860" name="Value" value="20.0"/>
             </ownedPropertyValueGroups>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="2af44827-c6dc-402a-85f8-e485dbfcaf86" name="PP 1">
@@ -4718,7 +4815,7 @@
             </ownedFeatures>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="d670d983-6078-4c75-ad60-a08cef92a5f6" appliedPropertyValueGroups="#fc2f08f9-89b0-403f-97e8-875907f43a7c"
+              id="d670d983-6078-4c75-ad60-a08cef92a5f6" appliedPropertyValueGroups="#fc2f08f9-89b0-403f-97e8-875907f43a7c #323b984f-5d09-4490-a053-35b579fdb530"
               name="Front Rotor" nature="NODE">
             <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
                 id="fc2f08f9-89b0-403f-97e8-875907f43a7c" name="Mass">
@@ -4726,6 +4823,13 @@
                   id="9e59d76b-ff0a-47e7-984d-293a35cba851" name="Units" value="g"/>
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
                   id="880ad45b-d4f1-440d-a7c3-9659cc656c4d" name="Max Value" value="261.0"/>
+            </ownedPropertyValueGroups>
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="323b984f-5d09-4490-a053-35b579fdb530" name="Cost">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="4c458916-a68c-402a-b7de-207d6d452cb3" name="Units" value="$"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                  id="74f94af9-bdf5-45a3-8429-c23d3d9e1033" name="Value" value="20.0"/>
             </ownedPropertyValueGroups>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="2ae4a6d2-8dc0-46b9-9e52-5c14e379d4ca" name="PP 1_1"/>
