@@ -92,7 +92,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg" href="Bike%20BrakeSystem%20Library.capella#171f05b6-a192-4c1c-8555-8879a769c33e"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_35uCUBooEfCx6e9eDEn_oQ" name="[PAB] Hydraulic Behavior" repPath="#_35pw4BooEfCx6e9eDEn_oQ" changeId="1746551938556">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_35uCUBooEfCx6e9eDEn_oQ" name="[PAB] Hydraulic Behavior" repPath="#_35pw4BooEfCx6e9eDEn_oQ" changeId="1758712861245">
         <eAnnotations xmi:type="description:DAnnotation" uid="_35zh4BooEfCx6e9eDEn_oQ" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_350I8BooEfCx6e9eDEn_oQ" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_350I8RooEfCx6e9eDEn_oQ" key="hide.computed.physical.links.filter" value="true"/>
@@ -21525,7 +21525,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']/@defaultLayer/@nodeMappings[name='PAB_FunctionalChainEnd']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_hvtzaxoqEfCx6e9eDEn_oQ" name="Ride Mountain Trails" width="2" height="2" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_hvtzaxoqEfCx6e9eDEn_oQ" name="Ride Mountain Trails (invalid)" width="2" height="2" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Bike%20BrakeSystem%20Library.capella#40bb2473-4f7d-48f7-8793-f13fe9cbd9ad"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Bike%20BrakeSystem%20Library.capella#40bb2473-4f7d-48f7-8793-f13fe9cbd9ad"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
